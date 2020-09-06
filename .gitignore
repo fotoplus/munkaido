@@ -10,6 +10,8 @@
 *.userosscache
 *.sln.docstates
 
+e/config/mysql.php
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

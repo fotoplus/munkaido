@@ -2,7 +2,7 @@
 
 $mysql = Array(
   'user' : 'uggcqxxd_munkaido';
-  'password' : 'ntX,f{2Xr}3V#@.xp%';
+  'password' : 'OKDD?4HE+sdZ.8VHFa';
   'db' : 'uggcqxxd_borbasmatyas';
 )
 

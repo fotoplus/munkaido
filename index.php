@@ -1,5 +1,6 @@
 <?php
 
+include('e/modules/auth/auth.php');
 
 ?>
 <!doctype html>
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="styles/reset/reset.css">
 
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/master.css">
 
   </head>
 
@@ -27,7 +28,7 @@
 
     <?php
 
-
+    include ('e/pages/login.php');
 
     ?>
 

@@ -1,7 +1,7 @@
 <?php
 
 
-$db_charset = 'utf-8';
+$db_charset = 'utf8';
 $tbl_prefix = 'fp_';
 
 

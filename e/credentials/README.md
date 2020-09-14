@@ -4,4 +4,4 @@ A mappa tartalma biztonsági okokból nincs feltöltve.
 
 ---
 
-[**mysql.php**](_sample_mysql.php) - adatbázis kapcsolat
+[**mysql.php**](sample_mysql.php) - adatbázis kapcsolat

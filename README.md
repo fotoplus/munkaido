@@ -1,5 +1,4 @@
-# munkaido
-Munkaidő nyilvántartás
+# On-line munkaidő nyilvántartás
 
 A dolgozók (mint felhasználók), bejelentkezést követően megadhatják hogy mettől meddig dolgoztak az adott napon, a tárolt adatokból pedig hónap végén létrejön a "jelenléti ív", azaz a munkaidő nyilvántartás.
 

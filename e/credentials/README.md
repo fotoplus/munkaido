@@ -2,9 +2,9 @@
 
 A mappa tartalma biztonsági okokból nincs feltöltve.
 
-Fájlok:
-* mysql.php - Adatbázis kapcsolat
+---
 
+**mysql.php** Adatbázis kapcsolat
 ~~~
 <?PHP
 
@@ -14,10 +14,10 @@ Fájlok:
  * További beállítások: /e/config/mysql.php
  */
 $mysql = Array(
-  'host' => 'localhost',
-  'user' => 'uggcqxxd_munkaido',
-  'password' => 'oU^%Wd$pak%@0+l6dE',
-  'db' => 'uggcqxxd_borbasmatyas',
+  'host' => '',
+  'user' => '',
+  'password' => '',
+  'db' => '',
 );
 
 ?>

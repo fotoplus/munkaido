@@ -1,6 +1,8 @@
 <?php
 
+include('e/modules/mysql/mysql.php');
 include('e/modules/auth/auth.php');
+
 
 ?>
 <!doctype html>

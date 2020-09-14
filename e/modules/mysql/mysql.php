@@ -1,6 +1,12 @@
 <?php
 
+/**
+ * Kapcsolódási adatok: /e/credentials/mysql.php
+ * További beállítások: /e/config/mysql.php
+ */
+
 include('e/credentials/mysql.php');
+include('e/config/mysql.php');
 
 $mysqli = new mysqli(
     $mysql['host'], // Az adatbázis címe, jellemzően "localhost"

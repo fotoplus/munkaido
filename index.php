@@ -1,7 +1,8 @@
 <?php
 
-include('e/modules/mysql/mysql.php');
-include('e/modules/auth/auth.php');
+require_once ('e/config/config.php');
+require_once ('e/modules/mysql/mysql.php');
+require_once ('e/modules/auth/auth.php');
 
 
 ?>

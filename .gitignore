@@ -1,3 +1,6 @@
 .vscode/
-
 e/credentials/*.php
+e/credentials/mysql.php
+
+humans.txt
+

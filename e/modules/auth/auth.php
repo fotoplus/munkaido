@@ -1,17 +1,22 @@
 <?php
 
 
-function is_auth() {
-  
+class Auth {
+
+  public function isAuth () {
+
+  }
+
+  public function login () {
+
+  }
+
+  public function logout () {
+
+  }
+
+
+
 }
-
-function auth() {
-
-}
-
-function logout() {
-  
-}
-
 
 ?>

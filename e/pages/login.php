@@ -14,7 +14,7 @@
     
     <input type="submit" name="login" value="Jelentkezzünk be">
 
-    <a href="./elfelejtett-jelszo" title="Kattimts ide ha elfelejtetted a jelszavad.">Elfelejtettem a jelszavam</a>
+    <a href="./elfelejtett-jelszo" title="Kattintsunk ide ha elfelejtettük a jelszavunk!">Elfelejtettem a jelszavam</a>
 
   </fieldset>
 </form>

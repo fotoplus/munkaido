@@ -31,7 +31,7 @@ require_once ('e/modules/auth/auth.php');
 
     <?php
 
-    include ('e/pages/login.php');
+    include ('e/pages/auth/login.php');
 
     ?>
 

@@ -7,6 +7,9 @@
   font-size: 12px;
 }
 
+body {
+  background-color: #f0f0f0;
+}
 
 fieldset > legend {
   font-weight: bold;
@@ -58,4 +61,5 @@ form[name="fotoplus-login"] {
   width: calc(100% - 40px);
   margin: 20px auto 20px auto;
   padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
 }

@@ -5,12 +5,19 @@ A dolgozók (mint felhasználók), bejelentkezést követően megadhatják hogy 
 A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél korábbi időpontot nem lehet megadni, de a munkaidő bármikor lezárható korlátozás nélkül, a mentett adatokat nem lehet módosítani, azokra csak módosítási kérelmet lehet rögzíteni, amit az adminisztrátori jogosultságú felhaszálók tudnak jóváhagyni.
 
 
+---
 
+# Telepítés és függőségek 
 
-auth.sql
+- JQuery (JS)
+- Bootstrap (JS, CSS)
+- Normalize (CSS)
+- Reset (CSS)
 
+A bejelentkezéshez szükséges egy **auth** nevű tábla az alábbiak szerint:
 
-~~~
+**auth.sql**
+```sql
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -52,4 +59,4 @@ ALTER TABLE `auth`
 ALTER TABLE `auth`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
-~~~
+```

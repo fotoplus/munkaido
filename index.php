@@ -40,19 +40,9 @@ require_once ('e/modules/auth/auth.php');
 
     <?php
 
-    $page['file'] = $page['name'] . '.php';
 
-    if( file_exists( PAGES . $page['file'] ) ) {
-
-      include ( PAGES . $page['file']);
-
-    } else {
-
-      include (  PAGES . 'e404.php');
-    }
-
-
-
+    
+    
     ?>
 
     <!-- Scriptek -->  

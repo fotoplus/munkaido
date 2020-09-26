@@ -11,10 +11,10 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 
 - PHP 7+
 - Apache *mod_rewrite*
-- MySQL
+- MySQL / MariaDB
 
 
-**Adatbázis**
+
 
 A bejelentkezéshez szükséges egy **auth** nevű tábla az alábbiak szerint:
 

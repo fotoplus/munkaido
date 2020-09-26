@@ -2,11 +2,8 @@
 
 require_once ('e/config/config.php');
 require_once ('e/modules/mysql/mysql.php');
+require_once ('e/modules/parse_uri/parse_uri.php');
 require_once ('e/modules/auth/auth.php');
-
-define("PAGES", "e/pages/");
-$page = array();
-$page['name'] = isset( $_REQUEST['page'] ) ? $_REQUEST['page'] : 'home';
 
 
 ?>
@@ -59,9 +56,9 @@ $page['name'] = isset( $_REQUEST['page'] ) ? $_REQUEST['page'] : 'home';
     ?>
 
     <!-- Scriptek -->  
-      <script src="js/vendor/jquery/jquery-3.5.1.min.js"></script>
-      <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
-      <script src="js/vendor/modernizr/modernizr-custom.js"></script>
+      <script src="scripts/vendor/jquery/jquery-3.5.1.min.js"></script>
+      <script src="scripts/vendor/bootstrap/bootstrap.min.js"></script>
+      <script src="scripts/vendor/modernizr/modernizr-custom.js"></script>
 
       <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Scriptek (vége) -->

@@ -7,7 +7,7 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 
 ---
 
-# Telepítés és függőségek 
+## Telepítés és függőségek 
 
 - JQuery (JS)
 - Bootstrap (JS, CSS)
@@ -60,3 +60,4 @@ ALTER TABLE `auth`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 ```
+*Ezt az SQL scriptet le kell futtatni az adatbázis szerveren*

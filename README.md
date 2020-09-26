@@ -9,15 +9,9 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 
 ## Telepítés és függőségek 
 
-PHP 7+
-[Apache mod_rewrite](.htaccess)
-MySQL
-
-JQuery ([JS](/scripts/vendor/jquery/))
-Bootstrap ([JS](/scripts/vendor/bootstrap/), [CSS](/styles/vendor/bootstrap/))
-Normalize ([CSS](/styles/vendor/normalize/))
-Reset ([CSS](/styles/vendor/reset/))
-
+- PHP 7+
+- Apache mod_rewrite
+- MySQL
 
 ### Adatbázis
 
@@ -66,3 +60,12 @@ ALTER TABLE `auth`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 ```
+
+---
+
+
+- JQuery ([JS](/scripts/vendor/jquery/))
+- Bootstrap ([JS](/scripts/vendor/bootstrap/), [CSS](/styles/vendor/bootstrap/))
+- Normalize ([CSS](/styles/vendor/normalize/))
+- Reset ([CSS](/styles/vendor/reset/))
+- Popper JS ~~~https://unpkg.com/@popperjs/core@2~~~

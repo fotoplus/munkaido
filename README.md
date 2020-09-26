@@ -10,10 +10,11 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 ## Telepítés és függőségek 
 
 - PHP 7+
-- Apache mod_rewrite
+- Apache *mod_rewrite*
 - MySQL
 
-### Adatbázis
+
+**Adatbázis**
 
 A bejelentkezéshez szükséges egy **auth** nevű tábla az alábbiak szerint:
 
@@ -69,4 +70,4 @@ COMMIT;
 - Bootstrap ([JS](/scripts/vendor/bootstrap/), [CSS](/styles/vendor/bootstrap/))
 - Normalize ([CSS](/styles/vendor/normalize/))
 - Reset ([CSS](/styles/vendor/reset/))
-- Popper JS [unpkg.com](https://unpkg.com/@popperjs/core@2
+- Popper JS [unpkg.com](https://unpkg.com/@popperjs/core@2)

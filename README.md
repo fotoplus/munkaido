@@ -9,9 +9,9 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 
 ## Telepítés és függőségek 
 
-* PHP 7+
-* [Apache mod_rewrite](.htaccess)
-* MySQL adatbázis
+-- PHP 7+ 
+-- [Apache mod_rewrite](.htaccess)
+-- MySQL adatbázis
 
 * JQuery ([JS](/scripts/vendor/jquery/))
 * Bootstrap ([JS](/scripts/vendor/bootstrap/), [CSS](/styles/vendor/bootstrap/))

@@ -63,9 +63,10 @@ COMMIT;
 
 ---
 
+## További komponensek
 
 - JQuery ([JS](/scripts/vendor/jquery/))
 - Bootstrap ([JS](/scripts/vendor/bootstrap/), [CSS](/styles/vendor/bootstrap/))
 - Normalize ([CSS](/styles/vendor/normalize/))
 - Reset ([CSS](/styles/vendor/reset/))
-- Popper JS ~~~https://unpkg.com/@popperjs/core@2~~~
+- Popper JS [unpkg.com](https://unpkg.com/@popperjs/core@2

@@ -1,0 +1,1 @@
+<h1><a href="?page=login">Bejelentkezés</a></h1>

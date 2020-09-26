@@ -1,20 +1,23 @@
 <?php
 ?>
 
-<form method="post" name="fotoplus-login" class="rounded border">
+<div class="container d-flex h-100 ">
 
-  <fieldset>
-    <legend>Jelentkezz be!</legend>
+  <form method="post" name="fotoplus-login" class="rounded-main border-main row align-self-center">
 
-    <label for="username">Felhasználóinév / e-mail cím</label>
-    <input type="text" name="username" />
+    <fieldset>
 
-    <label for="jelszó">Jelszó</label>
-    <input type="password" name="password" />
-    
-    <input type="submit" name="login" value="Jelentkezzünk be">
+      <label for="username">Felhasználóinév / e-mail cím</label>
+      <input type="text" name="username" />
 
-    <a href="./elfelejtett-jelszo" title="Kattintsunk ide ha elfelejtettük a jelszavunk!">Elfelejtettem a jelszavam</a>
+      <label for="jelszó">Jelszó</label>
+      <input type="password" name="password" />
+      
+      <button type="submit" name="login" >Bejelentkezés</button>
 
-  </fieldset>
-</form>
+      <a href="./elfelejtett-jelszo" title="Kattintsunk ide ha elfelejtettük a jelszavunk!">Elfelejtettem a jelszavam</a>
+
+    </fieldset>
+  </form>
+
+</div>

@@ -9,14 +9,20 @@ A munkaidő csak a helyi hálózatról kezdhető meg, megadni pedig 10 percnél 
 
 ## Telepítés és függőségek 
 
-- JQuery (JS)
+- PHP 7+
+- [Apache mod_rewrite](.htaccess)
+- MySQL adatbázis
+
+- JQuery ([JS](/js/vendor/jquery/))
 - Bootstrap (JS, CSS)
 - Normalize (CSS)
 - Reset (CSS)
 
+
+### Adatbázis
+
 A bejelentkezéshez szükséges egy **auth** nevű tábla az alábbiak szerint:
 
-**auth.sql**
 ```sql
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -60,4 +66,3 @@ ALTER TABLE `auth`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 ```
-*Ezt az SQL scriptet le kell futtatni az adatbázis szerveren*
